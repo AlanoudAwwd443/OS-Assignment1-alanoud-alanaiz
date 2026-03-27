@@ -32,6 +32,10 @@ class Process implements Runnable {
     private int remainingTime; // Time left for the process to finish its execution
     int priority;
 
+    private long CreationTime; //creating process
+    private long TotalWitingTime ; // time spent in queue
+    private long  LastReadyTime; // last time proces enter ready queue
+
     // Constructor to initialize the process with name, burst time, and time quantum
     public Process(String name, int burstTime, int timeQuantum) {
         this.name = name;
