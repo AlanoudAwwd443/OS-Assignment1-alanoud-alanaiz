@@ -150,6 +150,19 @@ class Process implements Runnable {
         return remainingTime;
     }
 
+    public int getpriority(){
+        return priority;
+    }
+    public long getCreationTime(){
+        return CreationTime;
+    }
+     public long getTotalWitingTime(){
+        return TotalWitingTime;
+    }
+     public long getLastReadyTime(){
+        return LastReadyTime;
+    }
+
     // Check if the process has finished (i.e., no remaining time)
     public boolean isFinished() {
         return remainingTime <= 0;
