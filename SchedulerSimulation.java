@@ -36,12 +36,19 @@ class Process implements Runnable {
     private long TotalWitingTime ; // time spent in queue
     private long  LastReadyTime; // last time proces enter ready queue
 
+
+
     // Constructor to initialize the process with name, burst time, and time quantum
     public Process(String name, int burstTime, int timeQuantum) {
         this.name = name;
         this.burstTime = burstTime;
         this.timeQuantum = timeQuantum;
         this.remainingTime = burstTime; // Initially, remaining time is equal to the burst time
+    
+        this.priority= priority;
+        this.CreationTime= System.currentTimeMillis();
+        this.TotalWitingTime = 0;
+        this.LastReadyTime = this.CreationTime ;
     }
 
     // This method will be called when the thread for this process is started
