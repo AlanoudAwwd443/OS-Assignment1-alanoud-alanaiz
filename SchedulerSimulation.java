@@ -162,7 +162,13 @@ class Process implements Runnable {
      public long getLastReadyTime(){
         return LastReadyTime;
     }
+    public void updataTotalWitingTime(){
+        long currentTime=System.currentTimeMillis();
+        long waitTime = currentTime - LastReadyTime; //time wait sprnt witeing for last add queue
+        TotalWitingTime += waitTime;
+    }
 
+    
     // Check if the process has finished (i.e., no remaining time)
     public boolean isFinished() {
         return remainingTime <= 0;
@@ -171,7 +177,7 @@ class Process implements Runnable {
 
 public class SchedulerSimulation {
 
-    priavte static int contextSwitchConut =0;
+    private static int contextSwitchCount = 0;
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here to seed the random number generator
         // This makes your output unique to you - DO NOT forget to change this!
@@ -227,7 +233,7 @@ public class SchedulerSimulation {
         int priority = 1+random.nextInt(5);
             
             // Create a new process object with a unique name, burst time, and the defined time quantum
-            Process process = new Process("P" + i, burstTime, timeQuantum);
+            Process process = new Process("P" + i, burstTime, timeQuantum,priority);
 
             
             
@@ -252,7 +258,7 @@ public class SchedulerSimulation {
             // Get the next thread from the queue (FIFO)
             Thread currentThread = processQueue.poll(); // Dequeues the next thread
 
-            contextSwitchConut ++;
+            contextSwitchCount ++;
             
             // Print the current process queue (list of process IDs in the queue)
             System.out.println(Colors.BOLD + Colors.MAGENTA + "┌─ Ready Queue " + "─".repeat(65) + Colors.RESET);
@@ -332,7 +338,7 @@ public class SchedulerSimulation {
     }
     
     // Method to add a process to the queue and map, while printing a "ready" message
-    public static void addProcessToQueue(Process process, Queue<Thread> processQueue, 
+   public static void addProcessToQueue(Process process, Queue<Thread> processQueue, 
                                         Map<Thread, Process> processMap) {
         // Create a new thread to run the process
         Thread thread = new Thread(process);
@@ -344,9 +350,11 @@ public class SchedulerSimulation {
         processMap.put(thread, process);
         
         // Print a message indicating the process has entered the ready queue
-        System.out.println(Colors.BLUE + "  ➕ " + Colors.BOLD + Colors.CYAN + process.getName() + 
+       System.out.println(Colors.BLUE + "  ➕ " + Colors.BOLD + Colors.CYAN + process.getName() + 
+                          Colors.RESET + Colors.YELLOW + " (Priority: " + process.getPriority() + ")" + 
                           Colors.RESET + Colors.BLUE + " added to ready queue" + Colors.RESET + 
                           " │ Burst time: " + Colors.YELLOW + process.getBurstTime() + "ms" + 
                           Colors.RESET);
     }
-}
+    }
+

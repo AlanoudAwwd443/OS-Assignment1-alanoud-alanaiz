@@ -264,12 +264,12 @@ After editing files, use the Source Control panel (Ctrl/Cmd+Shift+G) to stage, c
 - Keep the existing functionality working
 
 **Commit Examples:**
-- ✅ `"Feature 1: Added priority field to Process class"`
+- ✅ `": Added priority field to Process class"`
 - ✅ `"Feature 2: Implemented context switch counter"`
 - ✅ `"Feature 3: Added waiting time tracking and summary"`
 - ❌ `"done"` or `"update"` or `"final version"` (too vague!)
 
-#### 2.1: Feature 1 - Add Process Priority (1 mark)
+#### 2.1:  - Add Process Priority (1 mark)
 - Add a `priority` field to the Process class (integer 1-5, where 5 is highest)
 - Generate random priorities when creating processes
 - Display priority when a process enters the ready queue
