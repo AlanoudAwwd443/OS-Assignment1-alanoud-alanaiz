@@ -45,30 +45,31 @@ Watching a YouTube video
 2 hours
 ---
 
-### Entry 2 - [Date and Time]
+### Entry 2 - [18/3/2026 2 pm]
 **What I did**: 
-
+ understand the code
 **Details**: 
-
+Trying to understand the code and solve part of the second part and i forgot to write too
 **Challenges**: 
-
+it took too long 
 **Solution**: 
-
+youtube and ai (Explain only the original codes)
 **Time spent**: 
-
+hour
+5 hour
 ---
 
-### Entry 3 - [Date and Time]
+### Entry 3 - [25/3/2026 4 pm]
 **What I did**: 
-
+slove part 2
 **Details**: 
-
+i slove part 2 the most hard part it took too long
 **Challenges**: 
-
+hard
 **Solution**: 
-
+ask for help and use A pages on the Internet
 **Time spent**: 
-
+4 days
 ---
 
 ### Entry 4 - [Date and Time]
