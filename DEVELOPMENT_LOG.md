@@ -32,17 +32,17 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
+### Entry 1 - [17/3/2026 12:00 pm]
 **What I did**: 
-
+start new account 
 **Details**: 
-
+start account and do two weak ago i forgot to write 
 **Challenges**: 
-
+i had problem follwing the Steps 
 **Solution**: 
-
+Watching a YouTube video
 **Time spent**: 
-
+2 hours
 ---
 
 ### Entry 2 - [Date and Time]
