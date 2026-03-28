@@ -72,15 +72,15 @@ ask for help and use A pages on the Internet
 4 days
 ---
 
-### Entry 4 - [Date and Time]
+### Entry 4 - [28/3/2026 6 pm]
 **What I did**: 
-
+Answering the questions
 **Details**: 
-
+Solution to Part Three
 **Challenges**: 
-
+The answers were long and took a long time
 **Solution**: 
-
+Return to the slides And remember what you have done from the homework
 **Time spent**: 
 
 ---
