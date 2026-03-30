@@ -37,8 +37,7 @@ Researching on the internet, at first I visited a few sites but could not get a 
 
 **Your Answer:**
 
-[Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.
-Multithreading can be applied in real-world applications to make programs faster and more efficient. For example, in video games, one thread can handle graphics while another thread player movement. Websites  also use multithreading by giving each user request its own thread so the site stays fast even with many users. Multithreading is useful in apps that download files, because one thread can download while another updates the interface. an app can use one thread to handle user input while another thread loads data in the background.]
+[Multithreading can be applied in real-world applications to make programs faster and more efficient. For example, in video games, one thread can handle graphics while another thread player movement. Websites  also use multithreading by giving each user request its own thread so the site stays fast even with many users. Multithreading is useful in apps that download files, because one thread can download while another updates the interface. an app can use one thread to handle user input while another thread loads data in the background.]
 
 ---
 
