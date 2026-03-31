@@ -28,11 +28,17 @@ A process is a BIG program with its own memory and resources, while a thread is 
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+[P1 ran for 3000ms, remaining burst = 4968ms 
+P2 ran for 3000ms, remaining burst = 3425ms ]
 ```
 
 **Explanation of example:**
-[Explain what's happening in the output snippet you pasted]
+[in this output, P1 used its full time quantum of 3000ms, but it still had 4968ms left. Because it didn’t finish, the scheduler removed P1 from the CPU and placed it at the end of the ready queue. next  CPU gave the next to P2.
+This demonstrates the core behavior of Round‑Robin scheduling:
+- every process gets an equal time slice
+- unfinished processes are re‑queued
+- the CPU cycles through the queue fairly until all processes finish
+]
 
 ---
 
@@ -94,5 +100,5 @@ Example from my output:
 3. how round-robin work in real world
 
 **Concepts I need to study more:**
-1. how thread work in program
+1. how thread work in program and how import it are for every program
 2.  difference between thread and process, and how thread is lighter and faster because it share memory inside same program.
