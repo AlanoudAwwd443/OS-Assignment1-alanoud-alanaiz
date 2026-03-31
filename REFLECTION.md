@@ -18,8 +18,7 @@ Answer the following questions about your learning experience. Each answer shoul
 **Your Answer:
 **
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.
-the codeing was hard it took made 2 weak to understand it and modify , i feel the assignment have too much Requests and steps , part 2 was not claer with step , The first step was a bit of confusion at the beginning, It took me a while to understand how  multithreading work ]
+[the codeing was hard it took made 2 weak to understand it and modify , i feel the assignment have too much Requests and steps , part 2 was not claer with step , The first step was a bit of confusion at the beginning, It took me a while to understand how  multithreading work ]
 
 ---
 
@@ -27,8 +26,7 @@ the codeing was hard it took made 2 weak to understand it and modify , i feel th
 
 **Your Answer:**
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?
-Researching on the internet, at first I visited a few sites but could not get a clear and precise answer, so I decided to check YouTube, which helped me a lot. I used a little AI to explain the few  codes that I could not understand,thats all what i did]
+[Researching on the internet, at first I visited a few sites but could not get a clear and precise answer, so I decided to check YouTube, which helped me a lot. I used a little AI to explain the few  codes that I could not understand,expamle:w3school,javasprring.net,thats all what i did]
 
 
 ---
