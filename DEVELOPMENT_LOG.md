@@ -85,17 +85,17 @@ Return to the slides And remember what you have done from the homework
 
 ---
 
-### Entry 5 - [Date and Time]
+### Entry 5 - [31/3/2026]
 **What I did**: 
-
+I recorded a video and said I will answer the remaining questions
 **Details**: 
-
+I done about the missing things so that I can upload the homework on Blackboard
 **Challenges**: 
-
+it take long to take this step 
 **Solution**: 
-
+Start early
 **Time spent**: 
-
+2 days
 ---
 
 ### Entry 6 - [Optional - Date and Time]
